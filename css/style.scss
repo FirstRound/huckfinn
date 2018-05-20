@@ -20,7 +20,7 @@
 }
 
 body {
-    background-image: url(../img/bg-body.webp);
+    background-image: url(../img/bg-body.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -35,7 +35,7 @@ body {
         position: relative;
         background-size: cover;
         background-position: center;
-        background-image: url(../img/main-baner-bg.webp);
+        background-image: url(../img/main-baner-bg.jpg);
         height: 396px;
         .center-image {
             position: absolute;
@@ -400,7 +400,7 @@ body {
     .form-wrapp {
         background-size: cover;
         background-position: center;
-        background-image: url(../img/form-button.webp);
+        background-image: url(../img/form-button.jpg);
         padding: 50px 15px;
         position: relative;
         &:before {

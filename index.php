@@ -129,10 +129,10 @@
     <section class="slider-wrapper">
         <div class="slider-init">
             <div class="slide bg-1">
-                <div class="image" style="background-image: url(img/slide-2.webp)"></div>
+                <div class="image" style="background-image: url(img/slide-2.jpg)"></div>
             </div>
             <div class="slide bg-2">
-                <div class="image" style="background-image: url(img/slide-1.webp)"></div>
+                <div class="image" style="background-image: url(img/slide-1.jpg)"></div>
             </div>
         </div>
     </section>
