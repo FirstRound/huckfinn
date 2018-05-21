@@ -232,6 +232,22 @@ $(document).ready(function () {
         $('#line_up_modal').modal('show');
       }
     });
+    
+    function super_menu(wrapp) {
+        
+        if ($(window).scrollTop() > 500) {
+            wrapp.addClass("showed");
+        }
+        else {
+            wrapp.removeClass("showed");
+        }
+        
+    }
+    super_menu($(".fixed-menu"));
+    
+    $(window).scroll(function(){
+        super_menu($(".fixed-menu"));
+    });
 
 });
 

@@ -417,4 +417,14 @@ footer {
   height: 400px;
   width: 100%; }
 
+.main-menu.fixed-menu {
+  position: fixed;
+  top: -300px;
+  left: 0;
+  width: 100%;
+  z-index: 5000;
+  transition: 0.5s; }
+  .main-menu.fixed-menu.showed {
+    top: 0; }
+
 /*# sourceMappingURL=style.css.map */
