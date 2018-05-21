@@ -390,13 +390,13 @@ body {
       color: #FFD814;
       font-size: 34px;
       position: relative;
-      z-index: 5;
+      z-index: 0;
       margin-bottom: 50px; }
     .main-m-w-2 .form-wrapp form {
       max-width: 692px;
       margin: 0 auto;
       position: relative;
-      z-index: 5; }
+      z-index: 0; }
       .main-m-w-2 .form-wrapp form input,
       .main-m-w-2 .form-wrapp form textarea {
         outline: none;
