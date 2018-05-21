@@ -17,9 +17,6 @@
     <div class="main-menu fixed-menu">
         <ul class="lvl-1-wrapp">
             <li class="lvl-1">
-                <a href="/" class="active">home</a>
-            </li>
-            <li class="lvl-1">
                 <a href="tickets.html">tickets</a>
             </li>
             <li class="lvl-1">
@@ -99,7 +96,7 @@
             </li>
         </ul>
     </div>
-    <div class="main-m-w">
+    <div class="main-m-w header">
         <div class="image-cover">
             <div class="center-image">
                 <img src="img/baner-part-1.png" class="img-responsive" alt="">
@@ -127,9 +124,6 @@
         </button>
         <div class="collapse navbar-collapse" id="my-menu">
             <ul class="lvl-1-wrapp">
-                <li class="lvl-1">
-                    <a href="/" class="active">home</a>
-                </li>
                 <li class="lvl-1">
                     <a href="tickets.html">tickets</a>
                 </li>
