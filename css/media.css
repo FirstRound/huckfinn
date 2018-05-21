@@ -257,6 +257,9 @@
   .huckfinn_container .line_up_wrap div {
     font-size: 32px !important;
     width: 100% !important;
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+
+  .huckfinn_container h1, .huckfinn_container h2 {
+    font-size: 30px; } }
 
 /*# sourceMappingURL=media.css.map */
