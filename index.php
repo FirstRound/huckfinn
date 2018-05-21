@@ -429,6 +429,7 @@
     <script>
         var feed = new Instafeed({
             clientId: 'c7579bb4287a4d16b5b687ed209b72d3',
+            accessToken: '1703524666.1677ed0.2a05ec5e9fa040d4846674fc83d18c91',
             target: 'instafeed',
             get: 'tagged',
             tagName: 'photographyportfolio',
