@@ -427,4 +427,65 @@ footer {
   .main-menu.fixed-menu.showed {
     top: 0; }
 
+.tickets-top-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 35px 0; }
+
+.tickets-list-price .top-list-heada {
+  display: flex;
+  border-bottom: 4px solid #000; }
+  .tickets-list-price .top-list-heada .l-s {
+    width: 40%;
+    border-right: 4px solid #000; }
+    .tickets-list-price .top-list-heada .l-s p {
+      font-family: din;
+      font-size: 40px;
+      color: #F5B818;
+      text-transform: uppercase;
+      text-align: center; }
+  .tickets-list-price .top-list-heada .r-s {
+    width: 60%;
+    display: flex;
+    align-items: center; }
+    .tickets-list-price .top-list-heada .r-s p {
+      font-family: din;
+      font-size: 35px;
+      color: #fff;
+      text-align: center;
+      text-transform: uppercase; }
+    .tickets-list-price .top-list-heada .r-s .ll {
+      width: 50%; }
+    .tickets-list-price .top-list-heada .r-s .rr {
+      width: 50%; }
+.tickets-list-price .one-block {
+  border-bottom: 4px solid #000; }
+  .tickets-list-price .one-block .one-row {
+    display: flex;
+    align-items: center; }
+    .tickets-list-price .one-block .one-row .l-s {
+      width: 40%;
+      border-right: 4px solid #000; }
+      .tickets-list-price .one-block .one-row .l-s p {
+        font-family: din;
+        font-size: 40px;
+        color: #F5B818;
+        text-transform: uppercase;
+        text-align: center; }
+    .tickets-list-price .one-block .one-row .r-s {
+      width: 60%;
+      display: flex;
+      align-items: center; }
+      .tickets-list-price .one-block .one-row .r-s p {
+        font-family: din;
+        font-size: 35px;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase; }
+      .tickets-list-price .one-block .one-row .r-s .ll {
+        width: 50%; }
+      .tickets-list-price .one-block .one-row .r-s .rr {
+        width: 50%; }
+
 /*# sourceMappingURL=style.css.map */
