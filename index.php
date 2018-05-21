@@ -228,6 +228,11 @@
             <img class="img-responsive" src="img/insta-head-2.png" alt="">
         </div>
     </div>
+    <div class="main-m-w">
+        <div class="huckfinn_container">
+            <div id="instafeed"></div>
+        </div>
+    </div>
     <div class="main-m-w-2">
         <div class="form-wrapp">
             <p class="head-form">Sign up below for festival updates</p>
@@ -419,8 +424,23 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/instafeed.min.js"></script>
     <script src="js/scripts.js"></script>
-  
+    <script>
+        var feed = new Instafeed({
+            clientId: 'c7579bb4287a4d16b5b687ed209b72d3',
+            accessToken: '1703524666.ba4c844.dbabe1be746f4e1a8fd458b0090fa499',
+            target: 'instafeed',
+            get: 'tagged',
+            tagName: 'photographyportfolio',
+            links: true,
+            limit: 8,
+            sortBy: 'most-recent',
+            resolution: 'standard_resolution',
+            template: '<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="photo-box"><div class="image-wrap"><a href="{{link}}"><img src="{{image}}"></a><div class="likes">{{likes}} Likes</div></div><div class="description">{{caption}}<div class="date">{{model.date}}</div></div></div></div>'
+        });
+        //feed.run();
+    </script>
 </body>
 
 </html>

@@ -325,6 +325,11 @@ body {
             text-align: center;
             line-height: 1.2;
             font-size: 35px;
+            transition: 0.3s;
+
+            &:hover {
+                color: #F5D99B;
+            }
 
             &#line_up1, &#line_up2, &#line_up3, &#line_up13, &#line_up16, &:last-child {
                 width: 100%;
