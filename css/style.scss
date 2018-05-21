@@ -49,7 +49,7 @@ body {
         background-size: cover;
         background-position: center;
         background-image: url(../img/main-baner-bg.jpg);
-        height: 396px;
+        height: 500px;
         .center-image {
             position: absolute;
             top: -15px;
@@ -869,4 +869,13 @@ footer{
         }
     }
     
+}
+
+.ticket_buy {
+    background: #F5B818;
+    color: #000;
+    font: 40px NORTHWEST;
+    margin-bottom: 30px;
+    display: inline-block;
+    padding: 10px 50px 20px;
 }
