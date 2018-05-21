@@ -59,7 +59,16 @@
     font-size: 38px; }
 
   .huckfinn_container .line_up_wrap div#line_up3 {
-    font-size: 40px; } }
+    font-size: 40px; }
+
+  #line_up_modal .modal-dialog {
+    width: 90%;
+    margin-left: 0;
+    left: 5%;
+    height: 450px; }
+
+  #line_up_modal .text {
+    height: 220px; } }
 @media (max-width: 767px) {
   .flex-insta-head img:first-child {
     display: none; }
@@ -257,6 +266,29 @@
     margin-bottom: 20px; }
 
   .huckfinn_container h1, .huckfinn_container h2 {
-    font-size: 30px; } }
+    font-size: 30px; }
+
+  #line_up_modal .line_up_modal_wrap {
+    display: block;
+    min-height: 0; }
+
+  #line_up_modal .modal-dialog {
+    height: auto;
+    top: 20px;
+    margin-top: 0; }
+
+  #line_up_modal .line_up_modal_wrap .left,
+  #line_up_modal .line_up_modal_wrap .right {
+    width: 100%;
+    padding: 0; }
+
+  #line_up_modal .line_up_modal_wrap .right {
+    margin-top: 20px; }
+
+  #line_up_modal .text {
+    margin-top: 20px; }
+
+  #line_up_modal .closee {
+    top: 4px; } }
 
 /*# sourceMappingURL=media.css.map */

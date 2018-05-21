@@ -351,7 +351,7 @@ body {
 }
 
 #line_up_modal {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(255,255,255, 0.3);
 
     .modal-dialog {
         width: 1000px;
@@ -365,30 +365,61 @@ body {
         padding: 30px;
     }
 
+    .closee {
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        color: #F5B818;
+        font: 16px NORTHWEST;
+        cursor: pointer;
+        z-index: 10;
+    }
+
     .line_up_modal_wrap {
         display: flex;
+        position: relative;
         align-items: center;
-        height: 100%;
+        min-height: 200px;
 
         .left {
-            width: 40%;
+            width: 32%;
+            flex-shrink: 0;
+        }
+
+        .right {
+            width: 68%;
+            padding-left: 5%;
             flex-shrink: 0;
 
             h3 {
                 color: #F5B818;
                 font: 30px NORTHWEST;
-                margin-top: 30px;
+                margin: 0;
+                line-height: 1.0;
             }
         }
+    }
 
-        .text {
-            width: 60%;
-            padding-left: 10%;
-            flex-shrink: 0;
-            height: 100%;
-            overflow: auto;
-            color: #F5B818;
-            font: 14px DroidSerif;
+    .text {
+        &::-webkit-scrollbar {
+            background: #dcdcdc;
+            width: 5px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background: #f5b818;
+            cursor: pointer;
+        }
+
+        height: 300px;
+        color: #F5B818;
+        font: 14px NORTHWEST;
+        overflow: auto;
+        margin-top: 30px;
+        padding-right: 20px;
+
+        p {
+            margin-bottom: 15px;
         }
     }
 }
