@@ -289,6 +289,18 @@
     margin-top: 20px; }
 
   #line_up_modal .closee {
-    top: 4px; } }
+    top: 4px; }
+
+  .tickets-list-price .top-list-heada .l-s p {
+    font-size: 29px; }
+
+  .tickets-list-price .top-list-heada .r-s p {
+    font-size: 18px; }
+
+  .description-price {
+    display: block; }
+
+  .description-price .side {
+    width: 100%; } }
 
 /*# sourceMappingURL=media.css.map */
