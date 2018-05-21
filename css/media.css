@@ -85,14 +85,12 @@
     padding: 0 15px; }
 
   .main-m-w .image-cover .left-image {
-    bottom: 15px;
-    top: auto;
+    top: 0;
     max-width: 115px;
     left: 0; }
 
   .main-m-w .image-cover .right-image {
-    bottom: 11px;
-    top: auto;
+    top: 95px;
     max-width: 182px;
     right: -9px; }
 
