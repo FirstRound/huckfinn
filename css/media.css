@@ -3,7 +3,9 @@
     height: 350px; }
 
   .flex-insta-head {
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     margin-bottom: 6px; }
     .flex-insta-head img {
       max-width: 300px; }
@@ -122,20 +124,38 @@
     #modal-menu .main-menu {
       display: block; }
       #modal-menu .main-menu .lvl-1-wrapp {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; }
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
       #modal-menu .main-menu .lvl-1-wrapp .lvl-1 a {
         color: #FFEF9E;
         padding: 10px 0;
         position: relative; }
       #modal-menu .main-menu .lvl-1-wrapp .lvl-1 {
         position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; }
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
         #modal-menu .main-menu .lvl-1-wrapp .lvl-1.active a {
           color: #F5B818; }
         #modal-menu .main-menu .lvl-1-wrapp .lvl-1.active .xs-open-close-icon:before {
@@ -147,7 +167,8 @@
           position: relative;
           top: 0;
           left: 0;
-          transform: none;
+          -webkit-transform: none;
+                  transform: none;
           padding-top: 0; }
         #modal-menu .main-menu .lvl-1-wrapp .lvl-1.opened .menu-sec-lvl {
           display: block; }
@@ -165,7 +186,8 @@
             position: absolute;
             top: 50%;
             left: 0;
-            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
             width: 100%;
             height: 2px;
             background: #FFEF9E; }
@@ -175,7 +197,8 @@
             position: absolute;
             top: 0;
             left: 50%;
-            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+                    transform: translateX(-50%);
             width: 2px;
             height: 100%;
             background: #FFEF9E; }
@@ -195,22 +218,26 @@
       position: absolute;
       top: 50%;
       left: 0;
-      transform: translateY(-50%) rotate(45deg);
+      -webkit-transform: translateY(-50%) rotate(45deg);
+              transform: translateY(-50%) rotate(45deg);
       width: 100%;
       height: 2px;
       background: #F5B818;
-      transform-origin: center; }
+      -webkit-transform-origin: center;
+              transform-origin: center; }
     .close-menu:after {
       content: "";
       display: block;
       position: absolute;
       top: 0;
       left: 50%;
-      transform: translateX(-50%) rotate(45deg);
+      -webkit-transform: translateX(-50%) rotate(45deg);
+              transform: translateX(-50%) rotate(45deg);
       width: 2px;
       height: 100%;
       background: #F5B818;
-      transform-origin: center; }
+      -webkit-transform-origin: center;
+              transform-origin: center; }
 
   .slider-wrapper .slider-init .slide .image {
     height: 200px; }
@@ -301,6 +328,12 @@
     display: block; }
 
   .description-price .side {
-    width: 100%; } }
+    width: 100%; }
+
+  .faq-wrapper {
+    padding: 20px 15px; }
+
+  .faq-wrapper .head {
+    font-size: 26px; } }
 
 /*# sourceMappingURL=media.css.map */

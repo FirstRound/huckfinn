@@ -189,7 +189,16 @@ var infowindow = new google.maps.InfoWindow({
 
 
 $(document).ready(function () {
-    
+    $('.text-quest').click(function(){
+        if(!$(this).parents('.faq-item').hasClass('opened')){
+            $(this).parents('.faq-item').addClass('opened');
+            $(this).parents('.faq-item').find('.responce').slideDown(400);
+        }
+        else{
+            $(this).parents('.faq-item').removeClass('opened');
+            $(this).parents('.faq-item').find('.responce').slideUp(400);
+        }
+    });
 
     
     $('.slider-init').slick({
