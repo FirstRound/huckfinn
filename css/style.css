@@ -24,6 +24,9 @@ body {
   max-width: 1060px;
   margin: 0 auto;
   padding: 0 40px; }
+  .main-m-w.header {
+    max-width: 100%;
+    padding: 0; }
   .main-m-w .image-cover {
     position: relative;
     background-size: cover;
