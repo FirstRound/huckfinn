@@ -44,6 +44,11 @@ body {
         max-width: 100%;
         padding: 0;
     }
+    &.tickets_wrap {
+        iframe {
+            border: 0!important;
+        }
+    }
     .image-cover {
         position: relative;
         background-size: cover;

@@ -34,6 +34,8 @@ body {
   .main-m-w.header {
     max-width: 100%;
     padding: 0; }
+  .main-m-w.tickets_wrap iframe {
+    border: 0 !important; }
   .main-m-w .image-cover {
     position: relative;
     background-size: cover;
