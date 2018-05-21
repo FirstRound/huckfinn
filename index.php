@@ -230,7 +230,7 @@
     </div>
     <div class="main-m-w">
         <div class="huckfinn_container">
-            <div class="instafeed"></div>
+            <div id="instafeed"></div>
         </div>
     </div>
     <div class="main-m-w-2">
