@@ -265,7 +265,7 @@ body {
         width: 50%; }
 
 #line_up_modal {
-  background: rgba(0, 0, 0, 0.3); }
+  background: rgba(255, 255, 255, 0.3); }
   #line_up_modal .modal-dialog {
     width: 1000px;
     height: 600px;
@@ -276,25 +276,46 @@ body {
     margin-left: -500px;
     background: #000;
     padding: 30px; }
+  #line_up_modal .closee {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    color: #F5B818;
+    font: 16px NORTHWEST;
+    cursor: pointer;
+    z-index: 10; }
   #line_up_modal .line_up_modal_wrap {
     display: flex;
+    position: relative;
     align-items: center;
-    height: 100%; }
+    min-height: 200px; }
     #line_up_modal .line_up_modal_wrap .left {
-      width: 40%;
+      width: 32%;
       flex-shrink: 0; }
-      #line_up_modal .line_up_modal_wrap .left h3 {
+    #line_up_modal .line_up_modal_wrap .right {
+      width: 68%;
+      padding-left: 5%;
+      flex-shrink: 0; }
+      #line_up_modal .line_up_modal_wrap .right h3 {
         color: #F5B818;
         font: 30px NORTHWEST;
-        margin-top: 30px; }
-    #line_up_modal .line_up_modal_wrap .text {
-      width: 60%;
-      padding-left: 10%;
-      flex-shrink: 0;
-      height: 100%;
-      overflow: auto;
-      color: #F5B818;
-      font: 14px DroidSerif; }
+        margin: 0;
+        line-height: 1.0; }
+  #line_up_modal .text {
+    height: 300px;
+    color: #F5B818;
+    font: 14px NORTHWEST;
+    overflow: auto;
+    margin-top: 30px;
+    padding-right: 20px; }
+    #line_up_modal .text::-webkit-scrollbar {
+      background: #dcdcdc;
+      width: 5px; }
+    #line_up_modal .text::-webkit-scrollbar-thumb {
+      background: #f5b818;
+      cursor: pointer; }
+    #line_up_modal .text p {
+      margin-bottom: 15px; }
 
 .main-m-w-2 {
   max-width: 100%;
