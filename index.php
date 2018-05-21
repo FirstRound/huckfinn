@@ -99,7 +99,7 @@
             </li>
         </ul>
     </div>
-
+    <div class="main-m-w">
         <div class="image-cover">
             <div class="center-image">
                 <img src="img/baner-part-1.png" class="img-responsive" alt="">
@@ -117,7 +117,7 @@
                 <span class="icon-bar"></span>
             </button>
         </div>
-
+    </div>
     <div class="main-menu">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my-menu">
             <span class="sr-only">Toggle navigation</span>
@@ -127,6 +127,9 @@
         </button>
         <div class="collapse navbar-collapse" id="my-menu">
             <ul class="lvl-1-wrapp">
+                <li class="lvl-1">
+                    <a href="/" class="active">home</a>
+                </li>
                 <li class="lvl-1">
                     <a href="tickets.html">tickets</a>
                 </li>
