@@ -32,7 +32,7 @@ body {
     top: 0;
     left: 20px;
     width: 150px;
-    z-index: 5001;
+    z-index: 1001;
 }
 
 .main-m-w {
@@ -193,7 +193,7 @@ body {
         .slide {
             outline: none;
             .image{
-                 opacity: 0.45;
+                 opacity: 1;
                 background-position: center;
                 background-size: cover;
                 height: 461px;
@@ -645,7 +645,7 @@ footer{
         top: -300px;
         left: 0;
         width: 100%;
-        z-index: 5000;
+        z-index: 1000;
         transition: 0.5s;
         &.showed{
             top: 0;

@@ -25,7 +25,7 @@ body {
   top: 0;
   left: 20px;
   width: 150px;
-  z-index: 5001; }
+  z-index: 1001; }
 
 .main-m-w {
   max-width: 1060px;
@@ -164,7 +164,7 @@ body {
   .slider-wrapper .slider-init .slide {
     outline: none; }
     .slider-wrapper .slider-init .slide .image {
-      opacity: 0.45;
+      opacity: 1;
       background-position: center;
       background-size: cover;
       height: 461px;
@@ -553,7 +553,7 @@ footer {
   top: -300px;
   left: 0;
   width: 100%;
-  z-index: 5000;
+  z-index: 1000;
   -webkit-transition: 0.5s;
   transition: 0.5s; }
   .main-menu.fixed-menu.showed {
