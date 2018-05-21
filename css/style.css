@@ -250,7 +250,10 @@ body {
       cursor: pointer;
       text-align: center;
       line-height: 1.2;
-      font-size: 35px; }
+      font-size: 35px;
+      transition: 0.3s; }
+      .huckfinn_container .line_up_wrap div:hover {
+        color: #F5D99B; }
       .huckfinn_container .line_up_wrap div#line_up1, .huckfinn_container .line_up_wrap div#line_up2, .huckfinn_container .line_up_wrap div#line_up3, .huckfinn_container .line_up_wrap div#line_up13, .huckfinn_container .line_up_wrap div#line_up16, .huckfinn_container .line_up_wrap div:last-child {
         width: 100%; }
       .huckfinn_container .line_up_wrap div#line_up1 {
