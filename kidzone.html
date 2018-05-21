@@ -389,52 +389,7 @@
                   
         </div>
     </div>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABPbXEkXvc5vH0py6OQAhSjHRWsF1cMZU&callback=initMap&language=en&region=USA"
-            async defer></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/photoswipe.min.js"></script>
-    <script src="js/photoswipe-ui-default.min.js"></script>
-    <script src="js/scripts.js"></script>
-
-    <script>
-        $('.galary-flex').each(function () {
-            var pic = $(this)
-            , getItems = function () {
-                var items = [];
-                pic.find('.img-go-go').each(function () {
-                    var href = $(this).attr('data-hreff')
-                    , size = $(this).data('size').split('x')
-                    , width = size[0]
-                    , height = size[1];
-                    var item = {
-                        src: href
-                        , w: width
-                        , h: height
-                    }
-                items.push(item);
-                });
-                return items;
-            }
-            var items = getItems();
-            var pswp = $('.pswp')[0];
-            pic.on('click', '.img-before-padding', function (event) {
-                event.preventDefault();
-                var index = $(this).find(".img-go-go").attr("data-index");
-                var options = {
-                    index: parseInt(index)
-                    , bgOpacity: 1
-                    , showHideOpacity: true
-                }
-                // Initialize PhotoSwipe
-                var lightBox = new PhotoSwipe(pswp, PhotoSwipeUI_Default, items, options);
-                lightBox.init();
-            });
-        });
-    </script>
-
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="pswp__bg"></div>
     <!— Slides wrapper with overflow:hidden. —>
     <div class="pswp__scroll-wrap">
@@ -477,6 +432,54 @@
         </div>
     </div>
 </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABPbXEkXvc5vH0py6OQAhSjHRWsF1cMZU&callback=initMap&language=en&region=USA"
+            async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/photoswipe.min.js"></script>
+    <script src="js/photoswipe-ui-default.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <script>
+        $('.galary-flex').each(function () {
+            var pic = $(this)
+            , getItems = function () {
+                var items = [];
+                pic.find('.img-go-go').each(function () {
+                    var href = $(this).attr('data-hreff')
+                    , size = $(this).data('size').split('x')
+                    , width = size[0]
+                    , height = size[1];
+                    var item = {
+                        src: href
+                        , w: width
+                        , h: height
+                    }
+                items.push(item);
+                });
+                
+                return items;
+            }
+            var items = getItems();
+            var pswp = $('.pswp')[0];
+            pic.on('click', '.img-before-padding', function (event) {
+                event.preventDefault();
+                var index = $(this).find(".img-go-go").attr("data-index");
+                ;
+                var options = {
+                    index: parseInt(index)
+                    , bgOpacity: 1
+                    , showHideOpacity: true
+                }
+                // Initialize PhotoSwipe
+                var lightBox = new PhotoSwipe(pswp, PhotoSwipeUI_Default, items, options);
+                lightBox.init();
+            });
+        });
+    </script>
+
+
   
 </body>
 
