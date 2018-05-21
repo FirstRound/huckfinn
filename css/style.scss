@@ -536,3 +536,16 @@ footer{
     height: 400px;
     width: 100%;
 }
+.main-menu {
+    &.fixed-menu{
+        position: fixed;
+        top: -300px;
+        left: 0;
+        width: 100%;
+        z-index: 5000;
+        transition: 0.5s;
+        &.showed{
+            top: 0;
+        }
+    }
+}
