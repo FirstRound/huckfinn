@@ -87,7 +87,8 @@
   .main-m-w .image-cover .left-image {
     top: 0;
     max-width: 115px;
-    left: 0; }
+    left: 0;
+    margin-left: 0; }
 
   .main-m-w .image-cover .right-image {
     top: 95px;

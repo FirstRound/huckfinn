@@ -27,6 +27,14 @@ body {
     padding-top: 30px;
 }
 
+.corner_label {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 150px;
+    z-index: 500;
+}
+
 .main-m-w {
     max-width: 1060px;
     margin: 0 auto;
@@ -52,6 +60,7 @@ body {
             position: absolute;
             left: 18px;
             top: 0;
+            margin-left: 150px;
         }
         .right-image {
             position: absolute;
