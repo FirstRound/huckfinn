@@ -1,4 +1,11 @@
-window.initMap = function initMap() {
+
+
+
+
+
+
+$(document).ready(function () {
+    function initMap() {
 var uluru = {lat: 34.0717487, lng: -117.5925061};
 var map = new google.maps.Map(document.getElementById('map'), {
   zoom: 11,
@@ -184,13 +191,6 @@ var infowindow = new google.maps.InfoWindow({
     infowindow.open(map, marker);
 }
 
-
-
-
-
-
-$(document).ready(function () {
-    
     
     $('.slider-init').slick({
         dots: true,
