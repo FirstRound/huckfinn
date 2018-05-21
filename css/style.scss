@@ -28,11 +28,11 @@ body {
 }
 
 .corner_label {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 20px;
     width: 150px;
-    z-index: 500;
+    z-index: 5001;
 }
 
 .main-m-w {

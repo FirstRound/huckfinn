@@ -216,9 +216,6 @@
                     <div class="images-l-r">
                         <ul>
                             <li>
-                                <a href="coming-soon.html">comming soon</a>
-                            </li>
-                            <li>
                                 <a href="volunteers.html">volunteers</a>
                             </li>
                             <li>
@@ -237,6 +234,9 @@
                     <div class="images-l-r">
                         <ul>
                             <li>
+                                <a href="map.html">map</a>
+                            </li>
+                            <li>
                                 <a href="guidelines.html">meet the huckers</a>
                             </li>
                             <li>
@@ -246,13 +246,7 @@
                                 <a href="camping.html">camping</a>
                             </li>
                             <li>
-                                <a href="map.html">map</a>
-                            </li>
-                            <li>
                                 <a href="volunteering.html">volunteering</a>
-                            </li>
-                            <li>
-                                <a href="accessibility.html">handicap accessibility</a>
                             </li>
                             <li>
                                 <a href="faq.html">Sustainability</a>
@@ -324,9 +318,6 @@
                         <div class="images-l-r">
                             <ul>
                                 <li>
-                                    <a href="coming-soon.html">comming soon</a>
-                                </li>
-                                <li>
                                     <a href="volunteers.html">volunteers</a>
                                 </li>
                                 <li>
@@ -345,6 +336,9 @@
                         <div class="images-l-r">
                             <ul>
                                 <li>
+                                    <a href="map.html">map</a>
+                                </li>
+                                <li>
                                     <a href="guidelines.html">meet the huckers</a>
                                 </li>
                                 <li>
@@ -354,13 +348,7 @@
                                     <a href="camping.html">camping</a>
                                 </li>
                                 <li>
-                                    <a href="map.html">map</a>
-                                </li>
-                                <li>
                                     <a href="volunteering.html">volunteering</a>
-                                </li>
-                                <li>
-                                    <a href="accessibility.html">handicap accessibility</a>
                                 </li>
                                 <li>
                                     <a href="faq.html">Sustainability</a>
@@ -526,9 +514,6 @@
                             <div class="images-l-r">
                                 <ul>
                                     <li>
-                                        <a href="coming-soon.html">comming soon</a>
-                                    </li>
-                                    <li>
                                         <a href="volunteers.html">volunteers</a>
                                     </li>
                                     <li>
@@ -548,6 +533,9 @@
                             <div class="images-l-r">
                                 <ul>
                                     <li>
+                                        <a href="map.html">map</a>
+                                    </li>
+                                    <li>
                                         <a href="guidelines.html">meet the huckers</a>
                                     </li>
                                     <li>
@@ -557,14 +545,8 @@
                                         <a href="camping.html">camping</a>
                                     </li>
                                     <li>
-                                        <a href="map.html">map</a>
-                                    </li>
-                                    <li>
                                         <a href="volunteering.html">volunteering</a>
                                     </li>
-                                    <li>
-                                    <a href="accessibility.html">handicap accessibility</a>
-                                </li>
                                 <li>
                                     <a href="faq.html">Sustainability</a>
                                 </li>
