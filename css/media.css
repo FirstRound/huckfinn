@@ -339,6 +339,12 @@
     padding: 20px 15px; }
 
   .faq-wrapper .head {
-    font-size: 26px; } }
+    font-size: 26px; }
+
+  .huckfinn_container .galary-flex {
+    display: block; }
+
+  .huckfinn_container .galary-flex .wrapp-image-white {
+    width: 100%; } }
 
 /*# sourceMappingURL=media.css.map */

@@ -269,9 +269,6 @@
                             <li>
                                 <a href="fishing.html">fishing</a>
                             </li>
-                            <li>
-                                <a href="peddleboat.html">peddleboat</a>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -371,9 +368,6 @@
                                 <li>
                                     <a href="fishing.html">fishing</a>
                                 </li>
-                                <li>
-                                    <a href="peddleboat.html">peddleboat</a>
-                                </li>
                             </ul>
                         </div>
                     </div>
@@ -383,11 +377,29 @@
     </div>
     <section class="slider-wrapper">
         <div class="slider-init">
-            <div class="slide bg-1">
-                <div class="image" style="background-image: url(img/slide-2.jpg)"></div>
+            <div class="slide">
+                <div class="image" style="background-image: url(img/index1.jpg)"></div>
             </div>
-            <div class="slide bg-2">
-                <div class="image" style="background-image: url(img/slide-1.jpg)"></div>
+            <div class="slide">
+                <div class="image" style="background-image: url(img/index2.jpg)"></div>
+            </div>
+            <div class="slide">
+                <div class="image" style="background-image: url(img/index3.jpg)"></div>
+            </div>
+            <div class="slide">
+                <div class="image" style="background-image: url(img/index4.jpg)"></div>
+            </div>
+            <div class="slide">
+                <div class="image" style="background-image: url(img/index5.jpg)"></div>
+            </div>
+            <div class="slide">
+                <div class="image" style="background-image: url(img/index6.jpg)"></div>
+            </div>
+            <div class="slide">
+                <div class="image" style="background-image: url(img/index7.jpg)"></div>
+            </div>
+            <div class="slide">
+                <div class="image" style="background-image: url(img/index8.jpg)"></div>
             </div>
         </div>
     </section>
@@ -568,9 +580,6 @@
                                     </li>
                                     <li>
                                         <a href="fishing.html">fishing</a>
-                                    </li>
-                                    <li>
-                                        <a href="peddleboat.html">peddleboat</a>
                                     </li>
                                 </ul>
                             </div>
