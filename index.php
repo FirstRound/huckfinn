@@ -416,15 +416,16 @@
     <div class="main-m-w-2">
         <div class="form-wrapp">
             <p class="head-form">Sign up below for festival updates</p>
-            <form>
+            <form action="" class="send_form">
                 <div class="row-inputs">
-                    <input type="text" placeholder="Name *" required>
-                    <input type="email" placeholder="Email *" required>
+                    <input type="text" name="name" placeholder="Name *" required>
+                    <input type="email" name="email" placeholder="Email *" required>
                 </div>
-                <input type="text" placeholder="Subject">
-                <textarea placeholder="Message"></textarea>
+                <input type="text" name="subject" placeholder="Subject">
+                <textarea placeholder="Message" name="message"></textarea>
                 <button type="submit">Send</button>
             </form>
+            <p class="head-form hidden" id="thanks">Thank you!</p>
         </div>
     
     </div>
@@ -609,6 +610,19 @@
             template: '<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="photo-box"><div class="image-wrap"><a href="{{link}}"><img src="{{image}}"></a><div class="likes">{{likes}} Likes</div></div><div class="description">{{caption}}<div class="date">{{model.date}}</div></div></div></div>'
         });
         //feed.run();
+
+        $('.send_form button[type=submit]').click(function(e) {
+        	e.preventDefault();
+        	$.post({
+        		url: 'mail.php',
+        		data: $('.send_form').serialize(),
+        		success: function(response) {
+        			$('#thanks').removeClass('hidden');
+        			$('.send_form input').val('');
+        			$('.send_form textarea').val('');
+        		}
+        	});
+        });
     </script>
 </body>
 

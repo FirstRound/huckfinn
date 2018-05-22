@@ -192,15 +192,16 @@
     <div class="main-m-w-2">
         <div class="form-wrapp" style="background-image: url(img/volunteering_bg.jpg)">
             <p class="head-form">SEND THE FoRM FoR VoLUNTEERING</p>
-            <form>
+            <form action="" class="send_form">
                 <div class="row-inputs">
-                    <input type="text" placeholder="Name *" required>
-                    <input type="email" placeholder="Email *" required>
+                    <input type="text" name="name" placeholder="Name *" required>
+                    <input type="email" name="email" placeholder="Email *" required>
                 </div>
-                <input type="text" placeholder="Subject">
-                <textarea placeholder="Message"></textarea>
+                <input type="text" name="subject" placeholder="Subject">
+                <textarea placeholder="Message" name="message"></textarea>
                 <button type="submit">Send</button>
             </form>
+            <p class="head-form hidden" id="thanks">Thank you!</p>
         </div>
     
     </div>
@@ -368,7 +369,20 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/scripts.js"></script>
-  
+    <script>
+        $('.send_form button[type=submit]').click(function(e) {
+            e.preventDefault();
+            $.post({
+                url: 'mail.php',
+                data: $('.send_form').serialize(),
+                success: function(response) {
+                    $('#thanks').removeClass('hidden');
+                    $('.send_form input').val('');
+                    $('.send_form textarea').val('');
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
