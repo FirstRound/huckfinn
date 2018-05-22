@@ -2,33 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0f2477c-4ba8-49ac-a4e9-8cc7d23bcdb1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fishing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/merchandise.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accessibility.html" afterPath="$PROJECT_DIR$/accessibility.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/camping.html" afterPath="$PROJECT_DIR$/camping.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coming-soon.html" afterPath="$PROJECT_DIR$/coming-soon.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-info.html" afterPath="$PROJECT_DIR$/event-info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faq.html" afterPath="$PROJECT_DIR$/faq.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/festival.html" afterPath="$PROJECT_DIR$/festival.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guidelines.html" afterPath="$PROJECT_DIR$/guidelines.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kidzone.html" afterPath="$PROJECT_DIR$/kidzone.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/line-up.html" afterPath="$PROJECT_DIR$/line-up.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/map.html" afterPath="$PROJECT_DIR$/map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/marketplace.html" afterPath="$PROJECT_DIR$/marketplace.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partners.html" afterPath="$PROJECT_DIR$/partners.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ticket-purchase-payment-plans.html" afterPath="$PROJECT_DIR$/ticket-purchase-payment-plans.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ticketing-faq.html" afterPath="$PROJECT_DIR$/ticketing-faq.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets.html" afterPath="$PROJECT_DIR$/tickets.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/travel-and-accomidations.html" afterPath="$PROJECT_DIR$/travel-and-accomidations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendors.html" afterPath="$PROJECT_DIR$/vendors.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/volunteering.html" afterPath="$PROJECT_DIR$/volunteering.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/volunteers.html" afterPath="$PROJECT_DIR$/volunteers.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,7 +15,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="line-up.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/line-up.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="193" column="89" lean-forward="false" selection-start-line="193" selection-start-column="89" selection-end-line="193" selection-end-column="89" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#p#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="313" column="31" lean-forward="true" selection-start-line="313" selection-start-column="31" selection-end-line="314" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,6 +56,7 @@
       <find>.main-m-w .image-cover .left-image</find>
       <find>footer</find>
       <find>din;</find>
+      <find>huckfii</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -67,7 +69,6 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/media.scss" />
         <option value="$PROJECT_DIR$/community.html" />
-        <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/accessibility.html" />
         <option value="$PROJECT_DIR$/camping.html" />
         <option value="$PROJECT_DIR$/coming-soon.html" />
@@ -78,7 +79,6 @@
         <option value="$PROJECT_DIR$/guidelines.html" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/kidzone.html" />
-        <option value="$PROJECT_DIR$/line-up.html" />
         <option value="$PROJECT_DIR$/map.html" />
         <option value="$PROJECT_DIR$/marketplace.html" />
         <option value="$PROJECT_DIR$/partners.html" />
@@ -91,6 +91,8 @@
         <option value="$PROJECT_DIR$/volunteers.html" />
         <option value="$PROJECT_DIR$/cart.html" />
         <option value="$PROJECT_DIR$/merchandise.html" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
+        <option value="$PROJECT_DIR$/line-up.html" />
       </list>
     </option>
   </component>
@@ -141,6 +143,11 @@
               <item name="huckfinn" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="fonts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="huckfinn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huckfinn" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -182,12 +189,12 @@
       <workItem from="1526901123875" duration="3817000" />
       <workItem from="1526905645360" duration="1378000" />
       <workItem from="1526974399312" duration="7175000" />
-      <workItem from="1526995568524" duration="2651000" />
+      <workItem from="1526995568524" duration="3611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22428000" />
+    <option name="totallyTimeSpent" value="23388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -234,7 +241,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3638">
           <caret line="214" column="40" lean-forward="true" selection-start-line="213" selection-start-column="4" selection-end-line="214" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#p#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -286,14 +296,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/community.html" />
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accessibility.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
@@ -364,14 +366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="284" column="25" lean-forward="false" selection-start-line="284" selection-start-column="25" selection-end-line="284" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/line-up.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="274" column="25" lean-forward="false" selection-start-line="274" selection-start-column="25" selection-end-line="274" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -482,6 +476,25 @@
         <state relative-caret-position="119">
           <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="313" column="31" lean-forward="true" selection-start-line="313" selection-start-column="31" selection-end-line="314" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/line-up.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="193" column="89" lean-forward="false" selection-start-line="193" selection-start-column="89" selection-end-line="193" selection-end-column="89" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#p#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
