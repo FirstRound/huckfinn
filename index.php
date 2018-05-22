@@ -401,18 +401,6 @@
             </div>
         </div>
     </section>
-    <div class="main-m-w">
-        <div class="flex-insta-head">
-            <img class="img-responsive" src="img/insta-head-1.png" alt="">
-            <p>INSTAHUCKS</p>
-            <img class="img-responsive" src="img/insta-head-2.png" alt="">
-        </div>
-    </div>
-    <div class="main-m-w">
-        <div class="huckfinn_container">
-            <div id="instafeed"></div>
-        </div>
-    </div>
     <div class="main-m-w-2">
         <div class="form-wrapp">
             <p class="head-form">Sign up below for festival updates</p>
