@@ -45,7 +45,7 @@ body {
     position: relative;
     background-size: cover;
     background-position: center;
-    background-image: url(../img/new_header.jpg);
+    background-image: url(../img/newheader.jpg);
     height: 625px; }
     .main-m-w .image-cover .center-image {
       position: absolute;
@@ -53,6 +53,8 @@ body {
       left: 50%;
       -webkit-transform: translateX(-50%);
               transform: translateX(-50%); }
+      .main-m-w .image-cover .center-image img {
+        width: 385px; }
     .main-m-w .image-cover .left-image {
       position: absolute;
       left: 18px;

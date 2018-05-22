@@ -246,9 +246,9 @@
                 <div class="menu-sec-lvl">
                     <div class="images-l-r">
                         <ul>
-                            <!--<li>
-                                <a href="marketplace.html">the marketplace</a>
-                            </li>-->
+                            <li>
+                                    <a href="marketplace.html">the marketplace</a>
+                                </li>
                             <li>
                                 <a href="kidzone.html">kidzone</a>
                             </li>
@@ -330,9 +330,9 @@
                     <div class="menu-sec-lvl">
                         <div class="images-l-r">
                             <ul>
-                                <!--<li>
+                                <li>
                                     <a href="marketplace.html">the marketplace</a>
-                                </li>-->
+                                </li>
                                 <li>
                                     <a href="kidzone.html">kidzone</a>
                                 </li>
@@ -504,9 +504,9 @@
                         <div class="menu-sec-lvl">
                             <div class="images-l-r">
                                 <ul>
-                                    <!--<li>
-                                        <a href="marketplace.html">the marketplace</a>
-                                    </li>-->
+                                    <li>
+                                    <a href="marketplace.html">the marketplace</a>
+                                </li>
                                     <li>
                                         <a href="kidzone.html">kidzone</a>
                                     </li>
