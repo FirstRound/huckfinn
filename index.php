@@ -213,11 +213,13 @@
             <li class="lvl-1">
                 <a href="line-up.html">the line up</a>
             </li>
+            <!--
             <li class="lvl-1">
                 <a href="shop.html">MERCH</a>
             </li>
+-->
             <li class="lvl-1">
-                <a href="event-info.html">EVENT INFO</a>
+                <a>EVENT INFO</a>
                 <div class="menu-sec-lvl">
                     <div class="images-l-r">
                         <ul>
@@ -253,7 +255,7 @@
                 </div>
             </li>
             <li class="lvl-1">
-                <a href="festival.html">ATTRACTIONS</a>
+                <a >ATTRACTIONS</a>
                 <div class="menu-sec-lvl">
                     <div class="images-l-r">
                         <ul>
@@ -306,11 +308,13 @@
                 <li class="lvl-1">
                     <a href="line-up.html">the line up</a>
                 </li>
+<!--
                 <li class="lvl-1">
                     <a href="shop.html">MERCH</a>
                 </li>
+-->
                 <li class="lvl-1">
-                    <a href="event-info.html">EVENT INFO</a>
+                    <a>EVENT INFO</a>
                     <div class="menu-sec-lvl">
                         <div class="images-l-r">
                             <ul>
@@ -346,7 +350,7 @@
                     </div>
                 </li>
                 <li class="lvl-1">
-                    <a href="festival.html">ATTRACTIONS</a>
+                    <a >ATTRACTIONS</a>
                     <div class="menu-sec-lvl">
                         <div class="images-l-r">
                             <ul>
@@ -459,9 +463,11 @@
                     <li>
                         <a href="volunteering.html">Volunteering</a>
                     </li>
+<!--
                     <li>
                         <a href="shop.html">MERCH</a>
                     </li>
+-->
                     <li>
                         <a href="accessibility.html">Handicap Accessibility</a>
                     </li>
@@ -513,11 +519,13 @@
                     <li class="lvl-1">
                         <a href="line-up.html">the line up</a>
                     </li>
+<!--
                     <li class="lvl-1">
                         <a href="shop.html">MERCH</a>
                     </li>
+-->
                     <li class="lvl-1 xs-open-close">
-                        <a href="event-info.html">EVENT INFO<div class="xs-open-close-icon"></div></a>
+                        <a>EVENT INFO<div class="xs-open-close-icon"></div></a>
                        
                         <div class="menu-sec-lvl">
                             <div class="images-l-r">
@@ -554,7 +562,7 @@
                         </div>
                     </li>
                     <li class="lvl-1 xs-open-close">
-                        <a href="festival.html">ATTRACTIONS <div class="xs-open-close-icon"></div></a>
+                        <a>ATTRACTIONS <div class="xs-open-close-icon"></div></a>
                         
                         <div class="menu-sec-lvl">
                             <div class="images-l-r">
