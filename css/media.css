@@ -26,9 +26,6 @@
   .corner_label {
     width: 100px; }
 
-  .corner_label a:last-child {
-    width: 75px; }
-
   .main-m-w .image-cover .left-image {
     margin-left: 100px; } }
 @media (max-width: 991px) {

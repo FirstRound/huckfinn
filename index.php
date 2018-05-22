@@ -202,14 +202,10 @@
 
 <body>
 <div class="corner_label hidden-xs">
-    <a href="tickets.html"><img src="img/top_ticket.png" class="img-responsive" alt=""></a>
     <a href="/"><img src="img/corner_label.png" class="img-responsive" alt=""></a>
 </div>
     <div class="main-menu fixed-menu">
         <ul class="lvl-1-wrapp">
-            <li class="lvl-1">
-                <a href="/" >home</a>
-            </li>
             <li class="lvl-1">
                 <a href="tickets.html">tickets</a>
             </li>
@@ -291,11 +287,9 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
+        <a href="tickets.html" class="ticket_link hidden-xs hidden-sm"><img src="img/top_ticket.png" class="img-responsive" alt=""></a>
         <div class="collapse navbar-collapse" id="my-menu">
             <ul class="lvl-1-wrapp">
-                <li class="lvl-1">
-                    <a href="/" >home</a>
-                </li>
                 <li class="lvl-1">
                     <a href="tickets.html">tickets</a>
                 </li>
