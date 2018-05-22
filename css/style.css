@@ -26,6 +26,14 @@ body {
   left: 20px;
   width: 150px;
   z-index: 1001; }
+  .corner_label a:first-child {
+    z-index: 1001;
+    position: relative; }
+  .corner_label a:last-child {
+    z-index: 1000;
+    width: 105px;
+    display: block;
+    margin: -5px auto 0; }
 
 .main-m-w {
   max-width: 1060px;
@@ -40,7 +48,7 @@ body {
     position: relative;
     background-size: cover;
     background-position: center;
-    background-image: url(../img/main-baner-bg.jpg);
+    background-image: url(../img/new_header.jpg);
     height: 500px; }
     .main-m-w .image-cover .center-image {
       position: absolute;

@@ -201,7 +201,10 @@
 </head>
 
 <body>
-<div class="corner_label hidden-xs"><a href="/"><img src="img/corner_label.png" class="img-responsive" alt=""></a></div>
+<div class="corner_label hidden-xs">
+    <a href="tickets.html"><img src="img/top_ticket.png" class="img-responsive" alt=""></a>
+    <a href="/"><img src="img/corner_label.png" class="img-responsive" alt=""></a>
+</div>
     <div class="main-menu fixed-menu">
         <ul class="lvl-1-wrapp">
             <li class="lvl-1">
@@ -400,6 +403,9 @@
             </div>
             <div class="slide">
                 <div class="image" style="background-image: url(img/index8.jpg)"></div>
+            </div>
+            <div class="slide">
+                <div class="image" style="background-image: url(img/index9.jpg)"></div>
             </div>
         </div>
     </section>

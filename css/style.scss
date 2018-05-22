@@ -33,6 +33,19 @@ body {
     left: 20px;
     width: 150px;
     z-index: 1001;
+
+    a {
+        &:first-child {
+            z-index: 1001;
+            position: relative;
+        }
+        &:last-child {
+            z-index: 1000;
+            width: 105px;
+            display: block;
+            margin: -5px auto 0;
+        }
+    }
 }
 
 .main-m-w {
@@ -53,7 +66,7 @@ body {
         position: relative;
         background-size: cover;
         background-position: center;
-        background-image: url(../img/main-baner-bg.jpg);
+        background-image: url(../img/new_header.jpg);
         height: 500px;
         .center-image {
             position: absolute;
