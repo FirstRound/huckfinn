@@ -169,79 +169,77 @@ body {
             white-space: nowrap;
             padding: 3px 15px 3px 15px; }
 
-.slider-wrapper {
-  margin-bottom: 10px; }
-  .slider-wrapper .slider-init .slide {
-    outline: none; }
-    .slider-wrapper .slider-init .slide .image {
-      opacity: 1;
-      background-position: center;
-      background-size: cover;
-      height: 461px;
-      position: relative; }
-    .slider-wrapper .slider-init .slide.bg-1 {
-      background-color: #f7f5e1; }
-      .slider-wrapper .slider-init .slide.bg-1 .image {
-        opacity: 1; }
-    .slider-wrapper .slider-init .slide.bg-2 {
-      background-color: #2e2e2e; }
-  .slider-wrapper .slick-arrow {
-    position: absolute;
-    display: block;
-    border: none;
-    font-size: 0;
-    outline: none;
-    background-repeat: no-repeat;
+.slider-wrapper .slider-init .slide {
+  outline: none; }
+  .slider-wrapper .slider-init .slide .image {
+    opacity: 1;
     background-position: center;
-    width: 60px;
-    height: 16px;
-    z-index: 3;
-    background-color: transparent;
-    top: 50%;
-    margin-top: -8px;
-    background-image: url(../img/right-arr.svg); }
-    .slider-wrapper .slick-arrow:hover {
-      opacity: 0.6; }
-    .slider-wrapper .slick-arrow.slick-prev {
-      left: 80px;
-      -webkit-transform-origin: center;
-              transform-origin: center;
-      -webkit-transform: rotate(180deg);
-              transform: rotate(180deg); }
-    .slider-wrapper .slick-arrow.slick-next {
-      right: 80px; }
-  .slider-wrapper .slick-dots {
-    margin: 0;
-    list-style: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    position: absolute;
-    left: 50%;
-    bottom: 50px;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%); }
-    .slider-wrapper .slick-dots li {
-      margin: 0 6px; }
-      .slider-wrapper .slick-dots li button {
-        width: 6px;
-        height: 6px;
-        outline: none;
-        display: block;
-        font-size: 0;
-        border-radius: 50%;
-        border: 2px solid #edede4;
-        background: #edede4; }
-      .slider-wrapper .slick-dots li.slick-active button {
-        width: 9px;
-        height: 9px;
-        background: none; }
+    background-size: cover;
+    height: 461px;
+    position: relative; }
+  .slider-wrapper .slider-init .slide.bg-1 {
+    background-color: #f7f5e1; }
+    .slider-wrapper .slider-init .slide.bg-1 .image {
+      opacity: 1; }
+  .slider-wrapper .slider-init .slide.bg-2 {
+    background-color: #2e2e2e; }
+.slider-wrapper .slick-arrow {
+  position: absolute;
+  display: block;
+  border: none;
+  font-size: 0;
+  outline: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 60px;
+  height: 16px;
+  z-index: 3;
+  background-color: transparent;
+  top: 50%;
+  margin-top: -8px;
+  background-image: url(../img/right-arr.svg); }
+  .slider-wrapper .slick-arrow:hover {
+    opacity: 0.6; }
+  .slider-wrapper .slick-arrow.slick-prev {
+    left: 80px;
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg); }
+  .slider-wrapper .slick-arrow.slick-next {
+    right: 80px; }
+.slider-wrapper .slick-dots {
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%); }
+  .slider-wrapper .slick-dots li {
+    margin: 0 6px; }
+    .slider-wrapper .slick-dots li button {
+      width: 6px;
+      height: 6px;
+      outline: none;
+      display: block;
+      font-size: 0;
+      border-radius: 50%;
+      border: 2px solid #edede4;
+      background: #edede4; }
+    .slider-wrapper .slick-dots li.slick-active button {
+      width: 9px;
+      height: 9px;
+      background: none; }
 
 .flex-insta-head {
   display: -webkit-box;
