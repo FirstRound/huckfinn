@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0f2477c-4ba8-49ac-a4e9-8cc7d23bcdb1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accessibility.html" afterPath="$PROJECT_DIR$/accessibility.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/camping.html" afterPath="$PROJECT_DIR$/camping.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coming-soon.html" afterPath="$PROJECT_DIR$/coming-soon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/community.html" afterPath="$PROJECT_DIR$/community.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-info.html" afterPath="$PROJECT_DIR$/event-info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faq.html" afterPath="$PROJECT_DIR$/faq.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/festival.html" afterPath="$PROJECT_DIR$/festival.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guidelines.html" afterPath="$PROJECT_DIR$/guidelines.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kidzone.html" afterPath="$PROJECT_DIR$/kidzone.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/line-up.html" afterPath="$PROJECT_DIR$/line-up.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/map.html" afterPath="$PROJECT_DIR$/map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/marketplace.html" afterPath="$PROJECT_DIR$/marketplace.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partners.html" afterPath="$PROJECT_DIR$/partners.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ticket-purchase-payment-plans.html" afterPath="$PROJECT_DIR$/ticket-purchase-payment-plans.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ticketing-faq.html" afterPath="$PROJECT_DIR$/ticketing-faq.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets.html" afterPath="$PROJECT_DIR$/tickets.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/travel-and-accomidations.html" afterPath="$PROJECT_DIR$/travel-and-accomidations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendors.html" afterPath="$PROJECT_DIR$/vendors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/volunteering.html" afterPath="$PROJECT_DIR$/volunteering.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/volunteers.html" afterPath="$PROJECT_DIR$/volunteers.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="volunteers.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/volunteers.html">
+      <file leaf-file-name="volunteering.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/volunteering.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="281" column="36" lean-forward="false" selection-start-line="281" selection-start-column="36" selection-end-line="281" selection-end-column="36" />
+            <state relative-caret-position="307">
+              <caret line="188" column="84" lean-forward="false" selection-start-line="188" selection-start-column="84" selection-end-line="188" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -89,8 +70,8 @@
         <option value="$PROJECT_DIR$/ticketing-faq.html" />
         <option value="$PROJECT_DIR$/travel-and-accomidations.html" />
         <option value="$PROJECT_DIR$/vendors.html" />
-        <option value="$PROJECT_DIR$/volunteering.html" />
         <option value="$PROJECT_DIR$/volunteers.html" />
+        <option value="$PROJECT_DIR$/volunteering.html" />
       </list>
     </option>
   </component>
@@ -176,12 +157,12 @@
       <workItem from="1526885175941" duration="7407000" />
       <workItem from="1526901123875" duration="3817000" />
       <workItem from="1526905645360" duration="1378000" />
-      <workItem from="1526974399312" duration="5936000" />
+      <workItem from="1526974399312" duration="6575000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18538000" />
+    <option name="totallyTimeSpent" value="19177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -436,18 +417,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/volunteering.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="291" column="53" lean-forward="false" selection-start-line="291" selection-start-column="53" selection-end-line="291" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/volunteers.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="281" column="36" lean-forward="false" selection-start-line="281" selection-start-column="36" selection-end-line="281" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/volunteering.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="188" column="84" lean-forward="false" selection-start-line="188" selection-start-column="84" selection-end-line="188" selection-end-column="84" />
           <folding />
         </state>
       </provider>
