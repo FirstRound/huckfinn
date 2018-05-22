@@ -208,6 +208,9 @@
     <div class="main-menu fixed-menu">
         <ul class="lvl-1-wrapp">
             <li class="lvl-1">
+                <a href="/" >home</a>
+            </li>
+            <li class="lvl-1">
                 <a href="tickets.html">tickets</a>
             </li>
             <li class="lvl-1">
@@ -230,7 +233,7 @@
                                 <a href="guidelines.html">meet the huckers</a>
                             </li>
                             <li>
-                                <a href="travel-and-accomidations.html">travel &amp; accomidations</a>
+                                <a href="travel-and-accomidations.html">travel &amp; accommodations</a>
                             </li>
                             <li>
                                 <a href="camping.html">camping</a>
@@ -247,9 +250,9 @@
                 <div class="menu-sec-lvl">
                     <div class="images-l-r">
                         <ul>
-                            <li>
+                            <!--<li>
                                 <a href="marketplace.html">the marketplace</a>
-                            </li>
+                            </li>-->
                             <li>
                                 <a href="kidzone.html">kidzone</a>
                             </li>
@@ -291,6 +294,9 @@
         <div class="collapse navbar-collapse" id="my-menu">
             <ul class="lvl-1-wrapp">
                 <li class="lvl-1">
+                    <a href="/" >home</a>
+                </li>
+                <li class="lvl-1">
                     <a href="tickets.html">tickets</a>
                 </li>
                 <li class="lvl-1">
@@ -313,7 +319,7 @@
                                     <a href="guidelines.html">meet the huckers</a>
                                 </li>
                                 <li>
-                                    <a href="travel-and-accomidations.html">travel &amp; accomidations</a>
+                                    <a href="travel-and-accomidations.html">travel &amp; accommodations</a>
                                 </li>
                                 <li>
                                     <a href="camping.html">camping</a>
@@ -330,9 +336,9 @@
                     <div class="menu-sec-lvl">
                         <div class="images-l-r">
                             <ul>
-                                <li>
+                                <!--<li>
                                     <a href="marketplace.html">the marketplace</a>
-                                </li>
+                                </li>-->
                                 <li>
                                     <a href="kidzone.html">kidzone</a>
                                 </li>
@@ -504,9 +510,9 @@
                         <div class="menu-sec-lvl">
                             <div class="images-l-r">
                                 <ul>
-                                    <li>
+                                    <!--<li>
                                         <a href="marketplace.html">the marketplace</a>
-                                    </li>
+                                    </li>-->
                                     <li>
                                         <a href="kidzone.html">kidzone</a>
                                     </li>
