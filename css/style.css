@@ -265,7 +265,7 @@ body {
   margin-bottom: 30px; }
   .huckfinn_container h1, .huckfinn_container h2 {
     color: #F5B818;
-    font: 60px din;
+    font: 60px NORTHWEST;
     margin: 30px 0;
     text-transform: uppercase; }
   .huckfinn_container p, .huckfinn_container ul, .huckfinn_container ol {
@@ -569,164 +569,12 @@ footer {
   .main-menu.fixed-menu.showed {
     top: 0; }
 
-.tickets-top-side {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 35px 0; }
-
-.tickets-list-price {
-  margin-bottom: 30px; }
-  .tickets-list-price .top-list-heada {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    border-bottom: 4px solid #000; }
-    .tickets-list-price .top-list-heada .l-s {
-      width: 40%;
-      border-right: 4px solid #000; }
-      .tickets-list-price .top-list-heada .l-s p {
-        font-family: din;
-        font-size: 40px;
-        color: #F5B818;
-        text-transform: uppercase;
-        text-align: center; }
-    .tickets-list-price .top-list-heada .r-s {
-      width: 60%;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center; }
-      .tickets-list-price .top-list-heada .r-s p {
-        font-family: din;
-        font-size: 35px;
-        color: #fff;
-        text-align: center;
-        text-transform: uppercase; }
-      .tickets-list-price .top-list-heada .r-s .ll {
-        width: 50%; }
-      .tickets-list-price .top-list-heada .r-s .rr {
-        width: 50%; }
-  .tickets-list-price .one-block {
-    border-bottom: 4px solid #000; }
-    .tickets-list-price .one-block .one-row {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center; }
-      .tickets-list-price .one-block .one-row .l-s {
-        width: 40%;
-        border-right: 4px solid #000; }
-        .tickets-list-price .one-block .one-row .l-s p {
-          font-family: din;
-          font-size: 40px;
-          color: #fff;
-          padding: 10px 0;
-          text-transform: uppercase;
-          text-align: center; }
-          .tickets-list-price .one-block .one-row .l-s p.orange {
-            color: #F5B818; }
-      .tickets-list-price .one-block .one-row .r-s {
-        width: 60%;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center; }
-        .tickets-list-price .one-block .one-row .r-s p {
-          font-family: din;
-          font-size: 35px;
-          color: #fff;
-          text-align: center;
-          text-transform: uppercase; }
-          .tickets-list-price .one-block .one-row .r-s p.orange {
-            color: #F5B818; }
-        .tickets-list-price .one-block .one-row .r-s .ll {
-          width: 50%;
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-pack: center;
-              -ms-flex-pack: center;
-                  justify-content: center;
-          -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center; }
-          .tickets-list-price .one-block .one-row .r-s .ll p {
-            position: relative; }
-            .tickets-list-price .one-block .one-row .r-s .ll p:before {
-              content: "";
-              display: block;
-              position: absolute;
-              width: 80px;
-              height: 4px;
-              background: #F5B818;
-              left: 50%;
-              top: 50%;
-              -webkit-transform: translate(-50%) rotate(-20deg);
-                      transform: translate(-50%) rotate(-20deg);
-              -webkit-transform-origin: center;
-                      transform-origin: center;
-              -webkit-animation: fade-show  1s infinite;
-                      animation: fade-show  1s infinite; }
-        .tickets-list-price .one-block .one-row .r-s .rr {
-          width: 50%; }
-
-@-webkit-keyframes fade-show {
-  0% {
-    opacity: 0; }
-  50% {
-    opacity: 1; }
-  100% {
-    opacity: 0; } }
-
-@keyframes fade-show {
-  0% {
-    opacity: 0; }
-  50% {
-    opacity: 1; }
-  100% {
-    opacity: 0; } }
-.description-price {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 30px; }
-  .description-price .side {
-    width: 50%; }
-    .description-price .side p {
-      margin-bottom: 0;
-      font-size: 27px;
-      font-family: NORTHWEST;
-      color: #fff;
-      text-transform: uppercase;
-      line-height: 38px; }
-      .description-price .side p .orange-num {
-        font-family: din;
-        font-size: 35px;
-        color: #F5B818; }
-      .description-price .side p .new-t {
-        font-family: NORTHWEST;
-        font-size: 35px;
-        color: #F5B818; }
-
 .faq-wrapper {
   padding: 30px 40px;
   background: rgba(0, 0, 0, 0.64);
   margin-bottom: 20px; }
   .faq-wrapper .head {
-    font-family: din;
+    font-family: NORTHWEST;
     color: #f5b818;
     font-size: 43px;
     margin-bottom: 20px; }
@@ -761,14 +609,14 @@ footer {
     .faq-wrapper .faq-item .responce {
       display: none; }
       .faq-wrapper .faq-item .responce p {
-        font-family: din;
+        font-family: NORTHWEST;
         margin-bottom: 10px;
         color: #ffef9e;
         font-size: 16px;
         letter-spacing: 1px; }
       .faq-wrapper .faq-item .responce ol {
         color: #ffef9e;
-        font-family: din;
+        font-family: NORTHWEST;
         margin-bottom: 10px;
         letter-spacing: 1px; }
       .faq-wrapper .faq-item .responce .soc-links {

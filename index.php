@@ -481,13 +481,13 @@
                         <a href="ticket-purchase-payment-plans.html">PURCHASE TicketS</a>
                     </li>
                     <li>
-                        <a href="#">MERCHANDISE</a>
+                        <a href="merchandise.html">MERCHANDISE</a>
                     </li>
                     <li>
                         <a href="ticketing-faq.html">Ticketing FAQ</a>
                     </li>
                     <li>
-                        <a href="#">CART</a>
+                        <a href="cart.html">CART</a>
                     </li>
                     <li class="copy-right">
                         <div class="soc">

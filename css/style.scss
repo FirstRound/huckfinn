@@ -311,7 +311,7 @@ body {
 
     h1, h2 {
         color: #F5B818;
-        font: 60px din;
+        font: 60px NORTHWEST;
         margin: 30px 0;
         text-transform: uppercase;
     }
@@ -672,156 +672,14 @@ footer{
 }
 
 
-.tickets-top-side{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 35px 0;
-}
-.tickets-list-price{
-    margin-bottom: 30px;
-    .top-list-heada{
-        display: flex;
-        border-bottom: 4px solid #000;
-        .l-s{
-            width: 40%;
-            border-right: 4px solid #000;
-            p{
-                font-family: din;
-                font-size: 40px;
-                color: #F5B818;
-                text-transform: uppercase;
-                text-align: center;
-            }
-        }
-        .r-s{
-            width: 60%;
-            display: flex;
-            align-items: center;
-            p{
-                font-family: din;
-                font-size: 35px;
-                color: #fff;
-                text-align: center;
-                text-transform: uppercase;
-            }
-            .ll{
-                width: 50%;
-            }
-            .rr{
-                width: 50%;
-            }
-        }
-        
-    }
-    .one-block{
-        border-bottom: 4px solid #000;
-        .one-row{
-            display: flex;
-            align-items: center;
-            .l-s{
-                width: 40%;
-                border-right: 4px solid #000;
-                p{
-                    font-family: din;
-                    font-size: 40px;
-                    color: #fff;
-                     padding: 10px 0;
-                    text-transform: uppercase;
-                    text-align: center;
-                    &.orange{
-                        color: #F5B818;
-                    }
-                }
-            }
-            .r-s{
-                width: 60%;
-                display: flex;
-                align-items: center;
-               
-                p{
-                    
-                    font-family: din;
-                    font-size: 35px;
-                    color: #fff;
-                    text-align: center;
-                    text-transform: uppercase;
-                     &.orange{
-                        color: #F5B818;
-                    }
-                    
-                }
-                .ll{
-                    width: 50%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    p{
-                        position: relative;
-                        &:before{
-                            content: "";
-                            display: block;
-                            position: absolute;
-                            width: 80px;
-                            height: 4px;
-                            background: #F5B818;
-                            left: 50%;
-                            top: 50%;
-                            transform: translate(-50%) rotate(-20deg);
-                            transform-origin: center;
-                            animation: fade-show  1s infinite;
-                        }
-                    }
-                }
-                .rr{
-                    width: 50%;
-                }
-            }
-        }
-    }
-}
-@keyframes fade-show {
-    0%  {
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-.description-price{
-    display: flex;
-    margin-bottom: 30px;
-    .side{
-        width: 50%;
-        p{
-            margin-bottom: 0;
-            font-size: 27px;
-             font-family: NORTHWEST;
-            color: #fff;
-            text-transform: uppercase;
-            line-height: 38px;
-            .orange-num{
-                font-family: din;
-                font-size: 35px;
-                color: #F5B818;
-            }
-            .new-t{
-                 font-family: NORTHWEST;
-                font-size: 35px;
-                color: #F5B818;
-            }
-        }
-    }
-}
+
+
 .faq-wrapper{
     padding: 30px 40px;
     background:rgba(0,0,0,0.64);
     margin-bottom: 20px;
     .head{
-        font-family: din;
+        font-family: NORTHWEST;
         color: rgba(245,184,24,1);
         font-size: 43px;
         margin-bottom: 20px;
@@ -861,7 +719,7 @@ footer{
         .responce{
             display: none;
             p{
-                font-family: din;
+                font-family: NORTHWEST;
                 margin-bottom: 10px;
                 color: rgba(255,239,158,1);
                 font-size: 16px;
@@ -869,7 +727,7 @@ footer{
             }
             ol{
                  color: rgba(255,239,158,1);
-                font-family: din;
+                font-family: NORTHWEST;
                 margin-bottom: 10px;
                 letter-spacing: 1px;
             }
