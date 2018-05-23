@@ -17,6 +17,6 @@ if ($message) {
 }
 $letter .= '</body></html>';
 
-mail('komarovats93@gmail.com', 'Message from visitor | Huckfinn', $letter, 'Content-type: text/html; charset=utf-8')
+mail('info@huckfinn.com', 'Message from visitor | Huckfinn', $letter, 'Content-type: text/html; charset=utf-8')
 
 ?>
